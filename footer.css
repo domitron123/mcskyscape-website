@@ -1,0 +1,116 @@
+/* Footer content */
+footer {	
+    display: grid;
+    /*Assign sizes to each column in the grid*/
+    grid-template-columns: 250px auto 250px;
+	font-size: 16px;
+    /*Align footer with the bottom of page*/
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*styling*/
+    height:10vh;
+    width: 100%;
+    background-color: rgb(50, 53, 76);
+    color: bisque;
+}
+/*Put content into columns of the top grid row*/
+.plugininfo{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.contact{
+    text-align: center;
+    justify-self: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.footerright{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+/* Footer content pre grid 
+footer {	
+	font-size: 16px;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:10vh;
+    width: 100%;
+    background-color: rgb(50, 53, 76);
+    color: bisque;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 0px;
+}
+
+footer > * {
+    flex: 1 1 0px;
+}
+
+
+.plugininfo {
+    display: flex;
+    justify-content: left;
+    
+}
+
+.plugininfo p {
+    padding-left: 10px;
+   
+}
+
+.contact p{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.footerright {
+    display: flex;
+    justify-content: right;
+}
+
+.footerright p {
+    padding-right: 10px;
+}
+
+
+
+
+
+/*
+footer h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    flex: 1 1 0px;
+}
+
+
+
+/* 
+footer p {
+	margin: 0;
+	clear: left;
+	text-align: center;
+} */

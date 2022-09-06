@@ -1,0 +1,54 @@
+.socials a {
+  padding: 10px;
+}
+
+.socials {
+  padding: 15px;
+  display: flex;
+  justify-content: right;
+}
+
+.logo {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo > * {
+  flex: 1 1 0px;
+}
+
+.logo h1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img#page-logo {
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: rgb(50, 53, 76);
+  border-radius: 20px;
+  padding: 35px;
+  margin-bottom: 10px;
+}
+
+.nav .active {
+  color: bisque;
+}
+
+.nav:hover {
+  color: rgb(3, 137, 255);
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 20px;
+  color: #c0c1c8;
+  font-weight: bold;
+}
+
