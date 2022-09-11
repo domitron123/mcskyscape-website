@@ -13,11 +13,11 @@ for (i = 0; i < coll.length; i++) {
 }
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+  var x = document.getElementById("nav");
+  if (x.className === "nav") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "nav";
   }
 }
 let slideIndex = 1;
